@@ -1,0 +1,38 @@
+Este proyecto se basa en los clientes de una cafeteria, el cliente ingresa 
+sus datos de cliente frecuente y el producto. 
+
+Los productos van a estar almecenados en una base de datos de MySQL, 
+con nombre de producto y valor. 
+Igualmente los usuarios van a tener su info almacenada en la db, se 
+se puede ingredar nuevos ususarios o actualizar info. 
+
+_______
+Ampliacion del codigo:
+>> selecciona el primer producto, se le pregunta al usuario si quiere 
+seleccionar algún otro y van sumando los valores del precio de cada 
+uno para el valor total. 
+>> Crear un sistema de puntos por compra de cada cliente, 
+van a tener un status de cliente, todo se almacena en la db. 
+
+_______
+
+* Crear pipenv
+* Crear archivo .py con programa de cafeteria (app.py)
+* incluir modulo de Input Validation en app.py
+* Crear archivo para gestion de base de datos desde python (db.py)
+* crear funciones de creacion de table, agregar tabla, registros y demas.
+    > Crear tablas (Ventas, clientes, productos)
+* 
+
+
+NOTA:
+* Se puede incluir el modulo de Input Validation
+
+
+ambiente virtual
+* virtualenv venv (crea carpeta venv)
+* Activar ambiente virtual
+    Dentro de la carpeta venv hay una carpeta llamada Scripts, archivo activate.bat
+    en consola /venv/Scripts/activate.bat
+
+source venv/scripts/activate
