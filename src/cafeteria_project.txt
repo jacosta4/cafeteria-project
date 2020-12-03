@@ -11,28 +11,33 @@ Ampliacion del codigo:
 >> selecciona el primer producto, se le pregunta al usuario si quiere 
 seleccionar algún otro y van sumando los valores del precio de cada 
 uno para el valor total. 
+
 >> Crear un sistema de puntos por compra de cada cliente, 
 van a tener un status de cliente, todo se almacena en la db. 
 
+>> Romper mi codigo en modulos aparte, y en el archivo principal de app.py 
+se importan dichos modulos para tener todo mas organizado. 
+
+>> modificar valor factura final, solo esta facturando la primera vuelta 
+de preguntas. 
+
+
 _______
+Base de datos 
 
-* Crear pipenv
-* Crear archivo .py con programa de cafeteria (app.py)
-* incluir modulo de Input Validation en app.py
-* Crear archivo para gestion de base de datos desde python (db.py)
-* crear funciones de creacion de table, agregar tabla, registros y demas.
-    > Crear tablas (Ventas, clientes, productos)
-* 
+customers 
+	customer_id
+	first_name
+	last_name
+	email
 
+products
+	product_id 
+	product_name
+	product_price
 
-NOTA:
-* Se puede incluir el modulo de Input Validation
-
-
-ambiente virtual
-* virtualenv venv (crea carpeta venv)
-* Activar ambiente virtual
-    Dentro de la carpeta venv hay una carpeta llamada Scripts, archivo activate.bat
-    en consola /venv/Scripts/activate.bat
-
-source venv/scripts/activate
+Sales
+	sale_id
+	customer_id
+	product_id
+	sale_date
